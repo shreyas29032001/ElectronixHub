@@ -24,26 +24,32 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Technologies Used
 
-### 🔹 Frontend
-- [Angular](https://angular.io/)
-- TypeScript
-- HTML5, CSS3
-- RxJS
-- Bootstrap / Font Awesome
+### 🖥️ Frontend
 
-### 🔹 Backend
-- Java 17+
-- Spring Boot
-- Spring Data JPA
-- MySQL / H2
-- Lombok
-- Maven
+- **Angular** – A powerful framework for building dynamic single-page applications (SPAs).
+- **TypeScript** – Superset of JavaScript enabling type-safe development.
+- **HTML5 & CSS3** – For structuring and styling the user interface.
+- **Font Awesome** – Scalable vector icons for UI enhancements.
+- **RxJS** – Reactive programming for handling asynchronous data streams.
 
+### 🛠️ Backend
+
+- **Spring Boot** – Robust framework for building production-ready, stand-alone Spring applications.
+- **Java** – The core programming language for backend logic.
+- **Spring Data JPA** – Simplifies database interactions using repository interfaces.
+- **Spring Security** – Handles authentication and authorization.
+- **Lombok** – Reduces boilerplate code with annotations (e.g., getters/setters).
+- **MySQL** – Relational database for data persistence.
+- **Maven** – Manages dependencies and builds the project efficiently.
+
+---
 ---
 
 ## 📁 Folder Structure
+The project is divided into two main parts: Frontend (Angular) and Backend (SpringBoot).
+
 
 
 ---
