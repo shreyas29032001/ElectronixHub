@@ -42,10 +42,21 @@ This project is built using a modern full-stack architecture:
 ## 📂 Folder Structure
 
 The project is divided into two main parts: `Frontend` (Angular) and `Backend` (SpringBoot).
-```
+
+## 📂 Frontend folder structure using Angular
+<img width="858" height="826" alt="Screenshot 2025-07-14 153055" src="https://github.com/user-attachments/assets/5ebd3638-68bc-4686-8875-e0e7b63109e7" />
+<img width="831" height="811" alt="Screenshot 2025-07-14 153114" src="https://github.com/user-attachments/assets/f27fcb87-3e59-4f26-9f61-b10545ab372a" />
+<img width="833" height="821" alt="Screenshot 2025-07-14 153132" src="https://github.com/user-attachments/assets/2acfab4d-f715-48c7-b80a-aaded71d39a5" />
+<img width="852" height="810" alt="Screenshot 2025-07-14 153148" src="https://github.com/user-attachments/assets/c9bf34ab-d733-44c4-9848-a75400dc8d6f" />
 
 
-```
+## 📂 Backend folder structure using Springboot
+<img width="731" height="752" alt="Screenshot 2025-07-14 152637" src="https://github.com/user-attachments/assets/aa527f1a-7b4d-4390-aacc-345c8a6e651a" />
+
+<img width="730" height="745" alt="Screenshot 2025-07-14 152649" src="https://github.com/user-attachments/assets/ce974c6b-dc68-4799-ba37-41f6fd4c8107" />
+
+
+
 
 
 ## 🛠️ Setup and Installation
@@ -182,8 +193,8 @@ Dedicated access for administrators.
 
 ### Admin Dashboard
 Overview of registered users and quick stats.
-![Admin Dashboard](<img width="1853" height="906" alt="Screenshot 2025-07-14 151656" src="https://github.com/user-attachments/assets/3db0f7c0-0610-4796-93c9-64977aa529eb" />
-)
+<img width="1853" height="906" alt="Screenshot 2025-07-14 151656" src="https://github.com/user-attachments/assets/3db0f7c0-0610-4796-93c9-64977aa529eb" />
+
 
 ### Admin Product Management
 Add, edit, and delete products with ease.
