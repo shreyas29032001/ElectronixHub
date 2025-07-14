@@ -162,27 +162,33 @@ New users can easily create an account.
 
 ### Home Page
 A welcoming landing page featuring trending products.
-![Home Page]()
+![Home Page](<img width="1868" height="930" alt="Screenshot 2025-07-14 151415" src="https://github.com/user-attachments/assets/92398d19-a9c2-47cc-a841-be52733b52ca" />
+)
 
 ### Products Page
 Browse and search through a wide array of products.
-![Products Page]()
+![Products Page](<img width="1889" height="904" alt="Screenshot 2025-07-14 151611" src="https://github.com/user-attachments/assets/505d3088-fee2-4e9c-9fd5-477aeca68f90" />
+)
 
 ### Shopping Cart
 Review and manage items before checkout.
-![Shopping Cart]()
+![Shopping Cart](<img width="1870" height="826" alt="Screenshot 2025-07-14 151520" src="https://github.com/user-attachments/assets/3960999e-bc0a-41b3-9146-d23afa9d0055" />
+)
 
 ### Admin Login Page
 Dedicated access for administrators.
-![Admin Login Page]()
+![Admin Login Page](<img width="1875" height="903" alt="Screenshot 2025-07-14 150334" src="https://github.com/user-attachments/assets/fb8ded84-2369-4ee7-b01d-9f1a0190b009" />
+)
 
 ### Admin Dashboard
 Overview of registered users and quick stats.
-![Admin Dashboard]()
+![Admin Dashboard](<img width="1853" height="906" alt="Screenshot 2025-07-14 151656" src="https://github.com/user-attachments/assets/3db0f7c0-0610-4796-93c9-64977aa529eb" />
+)
 
 ### Admin Product Management
 Add, edit, and delete products with ease.
-![Admin Product Management]()
+![Admin Product Management](<img width="1866" height="906" alt="Screenshot 2025-07-14 151742" src="https://github.com/user-attachments/assets/06fa93a9-7aae-4117-adc9-b0da6f05ded9" />
+)
 
 ---
 
