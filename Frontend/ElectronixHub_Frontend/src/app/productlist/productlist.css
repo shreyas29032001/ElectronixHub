@@ -1,0 +1,41 @@
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #c6d2db;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #79ace2;
+  padding: 8px;
+}
+
+.product-table th {
+  background-color: #a89999;
+  text-align: left;
+}
+
+.product-table img {
+  object-fit: cover;
+}
+.admin-container {
+  padding: 20px;
+}
+
+.admin-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.admin-nav a {
+  text-decoration: none;
+  color:blueviolet;
+  padding: 4px 8px;
+  
+}
+
+.admin-nav a.active-link {
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+}

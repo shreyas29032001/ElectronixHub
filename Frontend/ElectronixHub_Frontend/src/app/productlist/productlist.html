@@ -1,0 +1,49 @@
+<!-- <h2>All Products</h2> -->
+<nav class="admin-nav">
+   <h2> <a routerLink="/productlist">Product List</a></h2>
+    <h2><a routerLink="/addproduct" >AddProduct</a></h2>
+   <h2> <a routerLink="users" routerLinkActive="active-link">View Users</a></h2>
+  </nav>
+
+<!-- Optional: Show if empty -->
+<div *ngIf="products.length === 0">
+  No products found.
+</div>
+
+<!-- Product Table -->
+<table class="product-table" *ngIf="products.length > 0">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Description</th>
+      <th>Image</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.id }}</td>
+      <td>{{ product.name }}</td>
+      <td>₹{{ product.price }}</td>
+      <td>{{ product.description }}</td>
+      <td>
+        <img
+          [src]="product.image"
+          alt="{{ product.name }}"
+          width="50"
+          height="50"
+          onerror="this.src='assets/images/placeholder.png'"
+        />
+      </td>
+      <td>
+        <button (click)="editProduct(product.id)">Update </button>
+
+        <button (click)="deleteProduct(product.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+

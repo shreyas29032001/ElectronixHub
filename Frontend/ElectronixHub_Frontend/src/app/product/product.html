@@ -1,0 +1,23 @@
+
+
+ <div class="product-container">
+  <div class="nav-search">
+    <input type="text" placeholder="Search products" />
+    <button>Search</button>
+  </div>
+  
+  <h2>Our Products</h2>
+  <div class="product-grid">
+  <div class="product-card" *ngFor="let product of products">
+    <img [src]="product.image" [alt]="product.name" />
+    <h3>{{ product.name }}</h3>
+    <p class="price">₹{{ product.price }}</p>
+    <p class="description">{{ product.description }}</p>
+    <!-- <button class="btn" routerLink="/cart">Add to Cart</button> -->
+     <button class="btn" (click)="handleAddToCart(product)">Add to Cart</button>
+
+  </div>
+</div>
+
+  
+ 

@@ -1,0 +1,152 @@
+<!-- <div class="page-container">
+  <nav class="nav">
+    <h1>
+      <a routerLink="/home">ElectronixHub</a>
+    </h1>
+    <ul>
+  <li><a routerLink="/home">Home</a></li>
+  <li><a routerLink="/product">Product</a></li>
+  <li><a routerLink="/cart">Cart</a></li>
+  <li *ngIf="!isUserLoggedIn"><a routerLink="/login">Login</a></li>
+  <li *ngIf="!isUserLoggedIn"><a routerLink="/register">Register</a></li>
+  <li *ngIf="isAdmin"><a routerLink="/admin">Admin</a></li>
+  <li *ngIf="isLoggedIn"><button (click)="logout()">Logout</button></li>
+</ul>
+
+  </nav>
+
+
+  <main class="content">
+    <router-outlet></router-outlet>
+
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>ELECTRONIX HUB</h3>
+        <p>Your trusted source for electronics and gadgets.</p>
+      </div>
+      <div class="footer-section">
+        <h4>SUPPORT</h4>
+        <ul>
+          <li><a routerLink="/contact">Contact Us</a></li>
+          <li><a href="#">Store Locator</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Refund & Return Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>SHOP</h4>
+        <ul>
+          <li><a href="#">Mobile Phone</a></li>
+          <li><a href="#">Home Appliances</a></li>
+          <li><a href="#">Discounts</a></li>
+          <li><a href="#">Gadgets & Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>About</h4>
+        <ul>
+          <li><a routerLink="/about">About us</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy & Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h4>CONTACT</h4>
+        <p><strong>Phone:</strong> +91 8329093141</p>
+        <p><strong>Email:</strong> <a href="shreyaskhandare311@gmail.com">admin&copy;electronixhub.</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2025 Electronix Hub. All rights reserved.
+    </div>
+  </footer>
+
+</div> -->
+<div class="page-container">
+  <nav class="nav">
+    <h1>
+      <a routerLink="/home">ElectronixHub</a>
+    </h1>
+    <ul>
+      <li><a routerLink="/home">Home</a></li>
+      <li><a routerLink="/product">Product</a></li>
+      <li><a routerLink="/cart">Cart</a></li>
+
+      <a *ngIf="!isLoggedIn()" routerLink="/login">Login</a>
+      <a *ngIf="!isLoggedIn()" routerLink="/register">Register</a>
+
+      <a *ngIf="isAdmin()" routerLink="/admin">Admin</a>
+      <button *ngIf="isLoggedIn()" (click)="logout()">Logout</button>
+
+
+
+    </ul>
+  </nav>
+
+
+  <main class="content">
+    <router-outlet></router-outlet>
+
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>ELECTRONIX HUB</h3>
+        <p>Your trusted source for electronics and gadgets.</p>
+      </div>
+      <div class="footer-section">
+        <h4>SUPPORT</h4>
+        <ul>
+          <li><a routerLink="/contact">Contact Us</a></li>
+          <li><a href="#">Store Locator</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Refund & Return Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>SHOP</h4>
+        <ul>
+          <li><a href="#">Mobile Phone</a></li>
+          <li><a href="#">Home Appliances</a></li>
+          <li><a href="#">Discounts</a></li>
+          <li><a href="#">Gadgets & Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>About</h4>
+        <ul>
+          <li><a routerLink="/about">About us</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy & Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h4>CONTACT</h4>
+        <p><strong>Phone:</strong> +91 8329093141</p>
+        <p><strong>Email:</strong> <a href="shreyaskhandare311@gmail.com">admin&copy;electronixhub.</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2025 Electronix Hub. All rights reserved.
+    </div>
+  </footer>
+
+</div>

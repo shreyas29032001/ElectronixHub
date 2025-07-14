@@ -1,0 +1,67 @@
+<div class="register-container">
+  <div class="register-box">
+    <h2>Create Your Account</h2>
+    <form (ngSubmit)="register()" #registerForm="ngForm">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="Enter your username"
+          [(ngModel)]="user.username"
+          name="username"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+          [(ngModel)]="user.email"
+          name="email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Create a password"
+          [(ngModel)]="user.password"
+          name="password"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="role">Role</label>
+        <select
+          id="role"
+          [(ngModel)]="user.role"
+          name="role"
+          required
+        >
+          <option value="USER" selected>User</option>
+          <option value="ADMIN">Admin</option>
+        </select>
+      </div>
+      <button type="submit">Register</button>
+      <p class="login-link">
+        Already have an account?
+        <a routerLink="/login">Login here</a>
+      </p>
+
+      <!-- Success Message -->
+      <div *ngIf="successMessage" class="alert alert-success" style="margin-top: 10px;">
+        {{ successMessage }}
+      </div>
+
+      <!-- Error Message -->
+      <div *ngIf="errorMessage" class="alert alert-danger" style="margin-top: 10px;">
+        {{ errorMessage }}
+      </div>
+    </form>
+  </div>
+</div>
