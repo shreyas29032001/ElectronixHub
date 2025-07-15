@@ -199,6 +199,10 @@ Overview of registered users and quick stats.
 ### Admin Product Management
 Add, edit, and delete products with ease.
 <img width="1866" height="906" alt="Screenshot 2025-07-14 151742" src="https://github.com/user-attachments/assets/06fa93a9-7aae-4117-adc9-b0da6f05ded9" />
+### Add Product 
+<img width="869" height="814" alt="Screenshot 2025-07-14 151752" src="https://github.com/user-attachments/assets/83de4a2d-b3bb-4cf0-ab29-2dcd514443c9" />
+### Update Product 
+<img width="1872" height="910" alt="Screenshot 2025-07-15 133350" src="https://github.com/user-attachments/assets/bbb846c4-39fa-4925-8b28-be076c3e3fe5" />
 
 
 ---
